@@ -1,0 +1,160 @@
+2024-02-13T15:35:42.019+05:30  INFO 12240 --- [main] com.jwt.example.JwtExample3Application   : Starting JwtExample3Application using Java 17.0.4.1 with PID 12240 (C:\Users\Ankit Tiwari\Desktop\students\jwtExample3\jwtExample3\target\classes started by Ankit Tiwari in C:\Users\Ankit Tiwari\Desktop\students\jwtExample3\jwtExample3)
+2024-02-13T15:35:42.031+05:30  INFO 12240 --- [main] com.jwt.example.JwtExample3Application   : No active profile set, falling back to 1 default profile: "default"
+2024-02-13T15:35:44.265+05:30  INFO 12240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-13T15:35:44.509+05:30  INFO 12240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191 ms. Found 1 JPA repository interfaces.
+2024-02-13T15:35:46.551+05:30  INFO 12240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-13T15:35:46.571+05:30  INFO 12240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-13T15:35:46.572+05:30  INFO 12240 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-13T15:35:46.884+05:30  INFO 12240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-13T15:35:46.885+05:30  INFO 12240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4742 ms
+2024-02-13T15:35:47.295+05:30  INFO 12240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-13T15:35:47.465+05:30  INFO 12240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-02-13T15:35:47.474+05:30  INFO 12240 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-13T15:35:48.414+05:30  INFO 12240 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-13T15:35:48.472+05:30  INFO 12240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-13T15:35:49.043+05:30  INFO 12240 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c4059a
+2024-02-13T15:35:49.047+05:30  INFO 12240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-13T15:35:49.209+05:30  WARN 12240 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-13T15:35:49.212+05:30  WARN 12240 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-02-13T15:35:50.483+05:30  INFO 12240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-13T15:35:50.593+05:30  INFO 12240 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-13T15:35:51.197+05:30  WARN 12240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-13T15:35:52.125+05:30  INFO 12240 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21b792c2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6202f8bf, org.springframework.security.web.context.SecurityContextHolderFilter@6e669b5c, org.springframework.security.web.header.HeaderWriterFilter@1978eab7, org.springframework.security.web.authentication.logout.LogoutFilter@32f8a37b, com.jwt.example.sercurity.JwtAuthenticationFilter@3d0f4ac4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@125c03d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c7aac7c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@330d557e, org.springframework.security.web.session.SessionManagementFilter@6c502018, org.springframework.security.web.access.ExceptionTranslationFilter@26fc464f, org.springframework.security.web.access.intercept.AuthorizationFilter@67748053]
+2024-02-13T15:35:52.451+05:30  INFO 12240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-13T15:35:52.463+05:30  INFO 12240 --- [main] com.jwt.example.JwtExample3Application   : Started JwtExample3Application in 11.384 seconds (process running for 13.341)
+2024-02-13T15:36:50.856+05:30  INFO 12240 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-13T15:36:50.857+05:30  INFO 12240 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-13T15:36:50.860+05:30  INFO 12240 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-13T15:36:50.892+05:30  INFO 12240 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:50.892+05:30  INFO 12240 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:51.071+05:30  INFO 12240 --- [http-nio-8081-exec-2] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:51.071+05:30  INFO 12240 --- [http-nio-8081-exec-2] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:51.074+05:30  INFO 12240 --- [http-nio-8081-exec-3] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:51.074+05:30  INFO 12240 --- [http-nio-8081-exec-3] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:51.086+05:30  INFO 12240 --- [http-nio-8081-exec-4] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:51.087+05:30  INFO 12240 --- [http-nio-8081-exec-4] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:51.088+05:30  INFO 12240 --- [http-nio-8081-exec-5] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:51.088+05:30  INFO 12240 --- [http-nio-8081-exec-5] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:51.097+05:30  INFO 12240 --- [http-nio-8081-exec-6] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:51.099+05:30  INFO 12240 --- [http-nio-8081-exec-6] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:52.445+05:30  INFO 12240 --- [http-nio-8081-exec-7] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:52.446+05:30  INFO 12240 --- [http-nio-8081-exec-7] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:52.452+05:30  INFO 12240 --- [http-nio-8081-exec-8] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:52.453+05:30  INFO 12240 --- [http-nio-8081-exec-8] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:52.610+05:30  INFO 12240 --- [http-nio-8081-exec-9] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:36:52.611+05:30  INFO 12240 --- [http-nio-8081-exec-9] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:36:53.154+05:30  INFO 12240 --- [http-nio-8081-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 523 ms
+2024-02-13T15:38:21.566+05:30  INFO 12240 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-13T15:38:21.590+05:30  INFO 12240 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-13T15:38:21.595+05:30  INFO 12240 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-13T15:38:21.600+05:30  WARN 12240 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2024-02-13T15:38:21.609+05:30  INFO 12240 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-13T15:38:21.611+05:30  INFO 12240 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-13T15:38:21.626+05:30  INFO 12240 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-13T15:39:32.299+05:30  INFO 6604 --- [main] com.jwt.example.JwtExample3Application   : Starting JwtExample3Application using Java 17.0.4.1 with PID 6604 (C:\Users\Ankit Tiwari\Desktop\students\jwtExample3\jwtExample3\target\classes started by Ankit Tiwari in C:\Users\Ankit Tiwari\Desktop\students\jwtExample3\jwtExample3)
+2024-02-13T15:39:32.304+05:30  INFO 6604 --- [main] com.jwt.example.JwtExample3Application   : No active profile set, falling back to 1 default profile: "default"
+2024-02-13T15:39:33.265+05:30  INFO 6604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-13T15:39:33.339+05:30  INFO 6604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2024-02-13T15:39:34.008+05:30  INFO 6604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-02-13T15:39:34.021+05:30  INFO 6604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-13T15:39:34.022+05:30  INFO 6604 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-02-13T15:39:34.170+05:30  INFO 6604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-13T15:39:34.170+05:30  INFO 6604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1786 ms
+2024-02-13T15:39:34.338+05:30  INFO 6604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-13T15:39:34.453+05:30  INFO 6604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-02-13T15:39:34.458+05:30  INFO 6604 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-13T15:39:34.874+05:30  INFO 6604 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-13T15:39:34.920+05:30  INFO 6604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-13T15:39:35.276+05:30  INFO 6604 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dbbdf92
+2024-02-13T15:39:35.279+05:30  INFO 6604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-13T15:39:35.358+05:30  WARN 6604 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-13T15:39:35.359+05:30  WARN 6604 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-02-13T15:39:36.561+05:30  INFO 6604 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-13T15:39:36.636+05:30  INFO 6604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-13T15:39:37.209+05:30  WARN 6604 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-13T15:39:38.323+05:30  INFO 6604 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@736eb2a2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ec5d3e1, org.springframework.security.web.context.SecurityContextHolderFilter@1f67d37f, org.springframework.security.web.header.HeaderWriterFilter@715523b8, org.springframework.security.web.authentication.logout.LogoutFilter@30b075b9, com.jwt.example.sercurity.JwtAuthenticationFilter@31921151, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57fb6900, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35bb3fea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b235623, org.springframework.security.web.session.SessionManagementFilter@64641998, org.springframework.security.web.access.ExceptionTranslationFilter@a1be5cb, org.springframework.security.web.access.intercept.AuthorizationFilter@66ad7167]
+2024-02-13T15:39:38.709+05:30  INFO 6604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-02-13T15:39:38.728+05:30  INFO 6604 --- [main] com.jwt.example.JwtExample3Application   : Started JwtExample3Application in 6.954 seconds (process running for 7.768)
+2024-02-13T15:40:02.416+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-13T15:40:02.417+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-13T15:40:02.420+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-13T15:40:02.440+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:02.440+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:02.535+05:30  INFO 6604 --- [http-nio-8081-exec-2] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:02.535+05:30  INFO 6604 --- [http-nio-8081-exec-2] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:02.552+05:30  INFO 6604 --- [http-nio-8081-exec-3] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:02.553+05:30  INFO 6604 --- [http-nio-8081-exec-3] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:02.559+05:30  INFO 6604 --- [http-nio-8081-exec-4] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:02.559+05:30  INFO 6604 --- [http-nio-8081-exec-4] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:02.575+05:30  INFO 6604 --- [http-nio-8081-exec-5] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:02.575+05:30  INFO 6604 --- [http-nio-8081-exec-6] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:02.575+05:30  INFO 6604 --- [http-nio-8081-exec-5] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:02.575+05:30  INFO 6604 --- [http-nio-8081-exec-6] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:03.109+05:30  INFO 6604 --- [http-nio-8081-exec-7] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:03.109+05:30  INFO 6604 --- [http-nio-8081-exec-7] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:03.116+05:30  INFO 6604 --- [http-nio-8081-exec-8] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:03.117+05:30  INFO 6604 --- [http-nio-8081-exec-8] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:03.179+05:30  INFO 6604 --- [http-nio-8081-exec-9] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:03.179+05:30  INFO 6604 --- [http-nio-8081-exec-9] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:03.779+05:30  INFO 6604 --- [http-nio-8081-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 578 ms
+2024-02-13T15:40:05.478+05:30  INFO 6604 --- [http-nio-8081-exec-10] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:05.478+05:30  INFO 6604 --- [http-nio-8081-exec-10] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:05.539+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:05.540+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:05.540+05:30  INFO 6604 --- [http-nio-8081-exec-2] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:05.540+05:30  INFO 6604 --- [http-nio-8081-exec-2] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:05.577+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:05.577+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:05.585+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:05.588+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:05.608+05:30  INFO 6604 --- [http-nio-8081-exec-4] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:05.609+05:30  INFO 6604 --- [http-nio-8081-exec-4] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:06.007+05:30  INFO 6604 --- [http-nio-8081-exec-6] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:06.007+05:30  INFO 6604 --- [http-nio-8081-exec-6] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:06.011+05:30  INFO 6604 --- [http-nio-8081-exec-8] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:06.011+05:30  INFO 6604 --- [http-nio-8081-exec-8] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:06.108+05:30  INFO 6604 --- [http-nio-8081-exec-7] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:06.108+05:30  INFO 6604 --- [http-nio-8081-exec-7] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:07.806+05:30  INFO 6604 --- [http-nio-8081-exec-9] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:07.806+05:30  INFO 6604 --- [http-nio-8081-exec-9] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:07.847+05:30  INFO 6604 --- [http-nio-8081-exec-10] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:07.848+05:30  INFO 6604 --- [http-nio-8081-exec-10] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:07.857+05:30  INFO 6604 --- [http-nio-8081-exec-3] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:07.857+05:30  INFO 6604 --- [http-nio-8081-exec-3] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:07.864+05:30  INFO 6604 --- [http-nio-8081-exec-5] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:07.864+05:30  INFO 6604 --- [http-nio-8081-exec-5] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:07.866+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:07.867+05:30  INFO 6604 --- [http-nio-8081-exec-1] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:07.875+05:30  INFO 6604 --- [http-nio-8081-exec-2] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:07.876+05:30  INFO 6604 --- [http-nio-8081-exec-2] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:08.227+05:30  INFO 6604 --- [http-nio-8081-exec-4] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:08.229+05:30  INFO 6604 --- [http-nio-8081-exec-4] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:08.234+05:30  INFO 6604 --- [http-nio-8081-exec-6] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:08.234+05:30  INFO 6604 --- [http-nio-8081-exec-6] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:40:08.340+05:30  INFO 6604 --- [http-nio-8081-exec-8] o.s.web.filter.OncePerRequestFilter      :  Header :  null
+2024-02-13T15:40:08.341+05:30  INFO 6604 --- [http-nio-8081-exec-8] o.s.web.filter.OncePerRequestFilter      : Invalid Header Value !! 
+2024-02-13T15:41:27.045+05:30  INFO 6604 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-13T15:41:27.061+05:30  INFO 6604 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-13T15:41:27.063+05:30  INFO 6604 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-13T15:41:27.066+05:30  WARN 6604 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2024-02-13T15:41:27.074+05:30  INFO 6604 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-13T15:41:27.077+05:30  INFO 6604 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-13T15:41:27.088+05:30  INFO 6604 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
